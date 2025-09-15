@@ -10,14 +10,14 @@ fun main() {
 
     val chast01All = chast01 + chast02
     if (chast01All.toInt() % 2 == 1) {
-        println("Нечетное число - $chast01All")
         chetNechet = true
+        println("Нечетное число - $chast01All")
     }
 
     val chast02All = chast02 + chast01
     if (chast02All.toInt() % 2 == 1) {
-        println("Нечетное число - $chast02All")
         chetNechet = true
+        println("Нечетное число - $chast02All")
     }
 
     if(!chetNechet) {
